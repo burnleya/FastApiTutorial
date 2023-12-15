@@ -2,6 +2,9 @@ from fastapi import FastAPI, Path, Query
 from pydantic import BaseModel
 from typing import Optional, List
 
+# I am up to 50 minutes in the tutorial
+#https://www.youtube.com/watch?v=gQTRsZpR7Gw&t=266s
+
 app = FastAPI(title="Fast API TUTORIAL",
               description="FastApi Tutorial by Andy",
               summary="Just a Tutorial",
