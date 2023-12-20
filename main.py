@@ -20,7 +20,7 @@ app = FastAPI(title="Fast API TUTORIAL",
               },
               )
 
-users = []
+users = ["Test"]
 
 
 class User(BaseModel):
